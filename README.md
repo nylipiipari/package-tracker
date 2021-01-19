@@ -1,4 +1,4 @@
-# Slim Framework 4 Skeleton Application
+# Package Tracker
 
 [![Coverage Status](https://coveralls.io/repos/github/slimphp/Slim-Skeleton/badge.svg?branch=master)](https://coveralls.io/github/slimphp/Slim-Skeleton?branch=master)
 
@@ -19,7 +19,7 @@ Replace `[my-app-name]` with the desired directory name for your new application
 * Point your virtual host document root to your new application's `public/` directory.
 * Ensure `logs/` is web writable.
 
-To run the application in development, you can run these commands 
+To run the application in development, you can run these commands
 
 ```bash
 cd [my-app-name]
@@ -27,10 +27,12 @@ composer start
 ```
 
 Or you can use `docker-compose` to run the app with `docker`, so you can run these commands:
+
 ```bash
 cd [my-app-name]
 docker-compose up -d
 ```
+
 After that, open `http://localhost:8080` in your browser.
 
 Run this command in the application directory to run the test suite
